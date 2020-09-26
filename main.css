@@ -426,7 +426,16 @@ h1 {
       transform: none;
       text-align: center;
     }
+    	.description5 {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
     
+	  
     .description2 h1 {
       font-size: 2em;
     }
