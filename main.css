@@ -264,6 +264,15 @@ body {
     text-align: center;
   }
   
+
+  .description7 {
+    left: 50%;
+    position: absolute;
+    top: 58%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+
   .description2 h1 {
     color: #6ab446;
   }
@@ -303,6 +312,7 @@ body {
     text-align: left;
     color:white;
     font-size: x-large;
+    line-height: 1.5;
   }
 
   .description5 {
@@ -317,6 +327,14 @@ body {
     left: 50%;
     position: absolute;
     top: 27%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+
+  .description7 {
+    left: 50%;
+    position: absolute;
+    top: 57%;
     transform: translate(-50%, -55%);
     text-align: center;
   }
@@ -384,10 +402,6 @@ h1 {
 }
 
 
-
-
-
-
 .page-footer {
     background-color: #222;
     color: #ccc;
@@ -417,45 +431,68 @@ h1 {
     .description p {
       font-size: 1.2rem;
     }
-	  
-	.description2 {
-      left: 0;
-      padding: 0 15px;
-      position: absolute;
-      top: 10%;
-      transform: none;
-      text-align: center;
-    }
-    	.description5 {
-      left: 0;
-      padding: 0 15px;
-      position: absolute;
-      top: 10%;
-      transform: none;
-      text-align: center;
-    }
-    
-	  
-    .description2 h1 {
-      font-size: 2em;
-    }
-    
-    .description2 p {
-      font-size: 1.2rem;
-    }
     
     .features {
       margin: 0;
     }
 
+    .description2 {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 15%;
+      transform: none;
+      text-align: center;
+
+    }
+
+    .description5 {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 7%;
+      transform: none;
+      text-align: center;
+
+    }
+
     .carousel{
       background: #2f4357;
       margin-top: 20px;
+      top: 5%;
       position: absolute;
   }
     .carousel-item{
       text-align: center;
-      min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+      min-height: 240px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+  }
+  
+  .description3 {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 15%;
+    transform: none;
+    text-align: center;
+  }
+
+    
+  .description4 {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 73%;
+    transform: none;
+    text-align: left;
+    font-size: medium;
+  }
+  
+  .description7 {
+    left: 50%;
+    position: absolute;
+    top: 84%;
+    transform: translate(-50%, -55%);
+    text-align: center;
   }
   
 
