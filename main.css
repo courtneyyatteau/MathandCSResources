@@ -417,6 +417,23 @@ h1 {
     .description p {
       font-size: 1.2rem;
     }
+	  
+	.description2 {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description2 h1 {
+      font-size: 2em;
+    }
+    
+    .descriptio2 np {
+      font-size: 1.2rem;
+    }
     
     .features {
       margin: 0;
