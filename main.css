@@ -295,6 +295,7 @@ body {
     background:#fff;
     color:#000;
   }
+  
 
   .description3 {
     left: 20%;
@@ -437,13 +438,15 @@ h1 {
     }
 
     .description2 {
-      left: 0;
       padding: 0 15px;
       position: absolute;
-      top: 15%;
-      transform: none;
+      transform: translate(-50%, -35%);
       text-align: center;
+    }
 
+    .description2 .card {
+      width:100%;
+      height: auto;
     }
 
     .description5 {
